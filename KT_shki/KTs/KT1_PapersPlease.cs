@@ -34,7 +34,6 @@ namespace KT_shki
                 Console.WriteLine($"Год выпуска \n >> {Year}");
             }
         }
-
         public class BorderGuard
         {
             private int _todaysYear = 2026;

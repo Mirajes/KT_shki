@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helper.cs" />
-    <Compile Include="KT1_PapersPlease.cs" />
+    <Compile Include="KTs\KT2\Airplane.cs" />
+    <Compile Include="KTs\KT2\KT2_MarioKart.cs" />
+    <Compile Include="KTs\KT2\SportsCar.cs" />
+    <Compile Include="KTs\KT2\Taxi.cs" />
+    <Compile Include="Util\CodeExecuter.cs" />
+    <Compile Include="Util\Helper.cs" />
+    <Compile Include="KTs\KT1_PapersPlease.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
