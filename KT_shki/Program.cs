@@ -15,7 +15,11 @@ namespace KT_shki
 
             while (true)
             {
-                Console.Write("\nInit: \n\n>> Выберите КТ: \n  >> 1 \n  >> 0 - Выход");
+                Console.Write("\nInit: \n\n" +
+                    ">> Выберите КТ: \n  " +
+                    ">> 1 \n  " +
+                    ">> 2 \n  " +
+                    ">> 0 - Выход");
                 Helper.ActionReseter(ref action);
 
                 switch (action)
