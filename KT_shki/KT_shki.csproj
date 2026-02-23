@@ -46,11 +46,8 @@
     <Compile Include="KTs\KT1\BorderGuard.cs" />
     <Compile Include="KTs\KT1\Visa.cs" />
     <Compile Include="KTs\KT2\Transport\Airplane.cs" />
-    <Compile Include="KTs\KT2\Drivers\Bouzer.cs" />
     <Compile Include="KTs\KT2\Driver.cs" />
     <Compile Include="KTs\KT2\KT2_MarioKart.cs" />
-    <Compile Include="KTs\KT2\Drivers\Mario.cs" />
-    <Compile Include="KTs\KT2\Drivers\Peach.cs" />
     <Compile Include="KTs\KT2\Transport\SportsCar.cs" />
     <Compile Include="KTs\KT2\Transport\Taxi.cs" />
     <Compile Include="KTs\KT2\Transport.cs" />

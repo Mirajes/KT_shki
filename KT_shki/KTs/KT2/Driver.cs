@@ -1,6 +1,6 @@
 ﻿namespace KT_shki.KTs
 {
-    public abstract class Driver
+    public class Driver
     {
         public string Name => _Name;
         public double DriverSkill => _DriverSkill;
