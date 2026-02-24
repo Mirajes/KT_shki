@@ -13,7 +13,7 @@ namespace KT_shki.KTs
 
             public void PerformStunt()
             {
-                throw new NotImplementedException();
+                if (!CanDoStunts()) return;
             }
 
             public float RiskFactor()

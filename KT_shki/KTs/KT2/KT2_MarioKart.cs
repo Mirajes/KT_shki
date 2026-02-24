@@ -8,10 +8,31 @@ namespace KT_shki.KTs
         private Driver _peach = new Driver("Peach", 0.7f);
         private Driver _bouzer = new Driver("Bouzer", 1f);
 
+        private float _raceTrackSize = 100f;
+
+        private string _raceStartChar = "!";
+        private string _raceSectionChar = "-";
+        private string _raceCarChar = ">";
+        private string _raceFinishChar = "||";
+        private string _raceBonusChar = "$";
+
+        private bool _raceRunning = false;
+        private Driver _raceWinner;
+
         public void Execute()
         {
             Console.WriteLine("KT2");
 
+            while (true) {
+                
+            }
+        }
+
+        private void Tick() {
+
+        }
+
+        private void SpawnBonus(int currentPosIndex, int maxIndex) {
 
         }
 

@@ -6,17 +6,32 @@ namespace KT_shki.KTs
     {
         public abstract class Transport
         {
+            #region PublicFields
+            public Driver Pilot => _Pilot;
+            public string Model => _Model;
+            public double BaseSpeed => _BaseSpeed;
+            public double MaxSpeed => _MaxSpeed;
+            public float FuelConsumption => _FuelConsumption;
+            public float FuelCount => _FuelCount;
+            public TransportType TransportType => _TransportType;
+            public string HowStartsMoving => _HowStartsMoving;
+            #endregion
+
+            #region PrivateFields
             protected Driver _Pilot;
             protected string _Model;
 
             protected double _BaseSpeed;
             protected double _MaxSpeed;
             protected float _FuelConsumption;
+            protected float _FuelCount;
 
             protected TransportType _TransportType;
             protected string _HowStartsMoving;
-
-            public Transport(Driver pilot, string model, double baseSpeed, float fuelConsumption, TransportType transportType, string howStartsMoving)
+            #endregion
+            
+            public Transport(Driver pilot, string model, double baseSpeed, 
+            float fuelConsumption, TransportType transportType, string howStartsMoving)
             {
                 _Pilot = pilot;
                 _Model = model;
