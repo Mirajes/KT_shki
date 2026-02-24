@@ -6,14 +6,19 @@ namespace KT_shki.KTs
     {
         public class SportsCar : Transport, IExtremeTransport
         {
+            public SportsCar(Driver pilot, string model, double baseSpeed, TransportType transportsType, string howStartsMoving) : base(pilot, model, baseSpeed, transportsType, howStartsMoving) { }
+
             public bool CanDoStunts()
             {
-                throw new NotImplementedException();
+                return true;
             }
 
             public void PerformStunt()
             {
-                throw new NotImplementedException();
+                if (CanDoStunts())
+                {
+
+                }
             }
 
             public float RiskFactor()
@@ -21,19 +26,24 @@ namespace KT_shki.KTs
                 throw new NotImplementedException();
             }
 
-            protected override void FuelConsumption()
+            public override void FuelConsumption()
             {
                 throw new NotImplementedException();
             }
 
-            protected override void StartMoving()
+            public override void StartMoving()
             {
                 throw new NotImplementedException();
             }
 
-            protected override void TransportType()
+            public override void TransportType()
             {
-                throw new NotImplementedException();
+                Console.WriteLine($"this is {TransportsType}");
+            }
+
+            public override void MaxSpeed(double driverSkill)
+            {
+                base.MaxSpeed(driverSkill * 1.5f);
             }
         }
     }

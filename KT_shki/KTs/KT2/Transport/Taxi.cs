@@ -10,17 +10,19 @@ namespace KT_shki.KTs
     {
         public class Taxi : Transport
         {
-            protected override void FuelConsumption()
+            public Taxi(Driver pilot, string model, double baseSpeed, TransportType transportsType, string howStartsMoving) : base(pilot, model, baseSpeed, transportsType, howStartsMoving) { }
+
+            public override void FuelConsumption()
             {
                 throw new NotImplementedException();
             }
 
-            protected override void StartMoving()
+            public override void StartMoving()
             {
                 throw new NotImplementedException();
             }
 
-            protected override void TransportType()
+            public override void TransportType()
             {
                 throw new NotImplementedException();
             }

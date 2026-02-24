@@ -12,7 +12,12 @@ namespace KT_shki
 
         static public void MakeAnIndentation(string name)
         {
-            Console.WriteLine($"\n\n --- {name} --- \n");
+            Console.WriteLine($"\n===============\n{name}\n===============\n");
+        }
+
+        static public void ClearConsole()
+        {
+            Console.Clear();
         }
 
         static public Random random = new Random();

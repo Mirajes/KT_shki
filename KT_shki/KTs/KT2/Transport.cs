@@ -10,10 +10,9 @@ namespace KT_shki.KTs
             public Driver Pilot => _Pilot;
             public string Model => _Model;
             public double BaseSpeed => _BaseSpeed;
-            public double MaxSpeed => _MaxSpeed;
-            public float FuelConsumption => _FuelConsumption;
+            public double MaxTransportSpeed => _MaxTransportSpeed;
             public float FuelCount => _FuelCount;
-            public TransportType TransportType => _TransportType;
+            public TransportType TransportsType => _TransportsType;
             public string HowStartsMoving => _HowStartsMoving;
             #endregion
 
@@ -22,34 +21,31 @@ namespace KT_shki.KTs
             protected string _Model;
 
             protected double _BaseSpeed;
-            protected double _MaxSpeed;
-            protected float _FuelConsumption;
+            protected double _MaxTransportSpeed;
             protected float _FuelCount;
 
-            protected TransportType _TransportType;
+            protected TransportType _TransportsType;
             protected string _HowStartsMoving;
             #endregion
             
-            public Transport(Driver pilot, string model, double baseSpeed, 
-            float fuelConsumption, TransportType transportType, string howStartsMoving)
+            public Transport(Driver pilot, string model, double baseSpeed, TransportType transportsType, string howStartsMoving)
             {
                 _Pilot = pilot;
                 _Model = model;
                 _BaseSpeed = baseSpeed;
-                _FuelConsumption = fuelConsumption;
-                _TransportType = transportType;
+                _TransportsType = transportsType;
                 _HowStartsMoving = howStartsMoving;
             }
 
-            protected virtual void MaxSpeed(double driverSkill)
+            public virtual void MaxSpeed(double driverSkill)
             {
                 // по экспоненте можно
-                _MaxSpeed = Math.Pow(3, driverSkill) * _BaseSpeed;
+                _MaxTransportSpeed = Math.Pow(3, driverSkill) * _BaseSpeed;
             }
 
-            protected abstract void FuelConsumption();
-            protected abstract void TransportType();
-            protected abstract void StartMoving();
+            public abstract void FuelConsumption(); // л/100км? и он абстрактный? зачем?
+            public abstract void TransportType(); // и чё это за метод
+            public abstract void StartMoving();
         }
     }
 }

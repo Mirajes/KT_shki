@@ -6,6 +6,8 @@ namespace KT_shki.KTs
     {
         public class Airplane : Transport, IExtremeTransport
         {
+            public Airplane(Driver pilot, string model, double baseSpeed, TransportType transportsType, string howStartsMoving) : base(pilot, model, baseSpeed, transportsType, howStartsMoving) { }
+
             public bool CanDoStunts()
             {
                 throw new NotImplementedException();
@@ -21,17 +23,17 @@ namespace KT_shki.KTs
                 throw new NotImplementedException();
             }
 
-            protected override void FuelConsumption()
+            public override void FuelConsumption()
             {
                 throw new NotImplementedException();
             }
 
-            protected override void StartMoving()
+            public override void StartMoving()
             {
                 throw new NotImplementedException();
             }
 
-            protected override void TransportType()
+            public override void TransportType()
             {
                 throw new NotImplementedException();
             }
