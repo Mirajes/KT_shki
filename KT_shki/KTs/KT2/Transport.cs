@@ -43,6 +43,8 @@ namespace KT_shki.KTs
                 _MaxTransportSpeed = Math.Pow(3, driverSkill) * _BaseSpeed;
             }
 
+            public virtual void ChangeDriver(Driver pilot) => _Pilot = pilot;
+
             public abstract void FuelConsumption(); // л/100км? и он абстрактный? зачем?
             public abstract void TransportType(); // и чё это за метод
             public abstract void StartMoving();

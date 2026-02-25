@@ -6,7 +6,7 @@ namespace KT_shki
     {
         static public void ActionReseter(ref string action)
         {
-            Console.Write("\n\n >> ");
+            Console.Write("\n >> ");
             action = Console.ReadLine();
         }
 

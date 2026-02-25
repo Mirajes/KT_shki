@@ -21,7 +21,7 @@ namespace KT_shki
                     ">> Выберите КТ: \n  " +
                     ">> 1 \n  " +
                     ">> 2 \n  " +
-                    ">> 0 - Выход");
+                    ">> 0 - Выход \n");
 
                 Helper.ActionReseter(ref action);
 
