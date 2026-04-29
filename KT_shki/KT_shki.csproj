@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KTs\KT3\Items\Weapons\Axe.cs" />
+    <Compile Include="KTs\KT3\Items\Item.cs" />
+    <Compile Include="KTs\KT3\Items\Weapons\Element.cs" />
+    <Compile Include="KTs\KT3\KT3_GenericCrafter.cs" />
     <Compile Include="KTs\KT1\BorderGuard.cs" />
     <Compile Include="KTs\KT1\Visa.cs" />
     <Compile Include="KTs\KT2\Transport\Airplane.cs" />
@@ -51,6 +55,11 @@
     <Compile Include="KTs\KT2\Transport\SportsCar.cs" />
     <Compile Include="KTs\KT2\Transport\Taxi.cs" />
     <Compile Include="KTs\KT2\Transport.cs" />
+    <Compile Include="KTs\KT3\Items\Weapons\Spear.cs" />
+    <Compile Include="KTs\KT3\Items\Stick.cs" />
+    <Compile Include="KTs\KT3\Items\Stone.cs" />
+    <Compile Include="KTs\KT3\Items\Weapons\Weapon.cs" />
+    <Compile Include="KTs\KT3\Workbench.cs" />
     <Compile Include="Util\CodeExecuter.cs" />
     <Compile Include="Util\Helper.cs" />
     <Compile Include="KTs\KT1\KT1_PapersPlease.cs" />
