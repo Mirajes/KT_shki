@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace KT_shki
 {
-    internal partial class KT1_PapersPlease
+    internal partial class KT1_PapersPlease : KT
     {
         public enum Countries
         {
@@ -14,7 +14,7 @@ namespace KT_shki
 
         // test
 
-        public void Execute()
+        public override void Execute()
         {
             KT1_PapersPlease.BorderGuard guard = new KT1_PapersPlease.BorderGuard();
             string action = "";

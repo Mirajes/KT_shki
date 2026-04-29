@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Util\KT.cs" />
     <Compile Include="KTs\KT3\Items\Weapons\Axe.cs" />
     <Compile Include="KTs\KT3\Items\Item.cs" />
-    <Compile Include="KTs\KT3\Items\Weapons\Element.cs" />
+    <Compile Include="KTs\KT3\Elements\Element.cs" />
+    <Compile Include="KTs\KT3\Elements\Fire.cs" />
+    <Compile Include="KTs\KT3\Elements\Ice.cs" />
+    <Compile Include="KTs\KT3\Elements\Steam.cs" />
     <Compile Include="KTs\KT3\KT3_GenericCrafter.cs" />
     <Compile Include="KTs\KT1\BorderGuard.cs" />
     <Compile Include="KTs\KT1\Visa.cs" />

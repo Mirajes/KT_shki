@@ -15,6 +15,11 @@ namespace KT_shki
         {
             KT_2.Execute();
         }
+
+        public void CodeExecution(KT3_GenericCrafter KT_3)
+        {
+            KT_3.Execute();
+        }
     }
 }
 

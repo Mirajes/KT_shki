@@ -19,19 +19,4 @@
             _Element = element1 + element2;
         }
     }
-
-    public class Steam : Element
-    {
-
-    }
-
-    public class Fire : Element
-    {
-
-    }
-
-    public class Ice : Element
-    {
-
-    }
 }

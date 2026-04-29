@@ -5,7 +5,7 @@ using System.Text;
 
 namespace KT_shki.KTs
 {
-    internal partial class KT2_MarioKart
+    internal partial class KT2_MarioKart : KT
     {
         private List<Driver> _driversLibrary = new List<Driver>
         {
@@ -44,7 +44,7 @@ namespace KT_shki.KTs
         private bool _raceRunning = false;
         private Driver _raceWinner;
 
-        public void Execute()
+        public override void Execute()
         {
             Helper.MakeAnIndentation("КТ2: Абстракция");
 

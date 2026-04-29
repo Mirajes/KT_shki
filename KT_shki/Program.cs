@@ -18,10 +18,11 @@ namespace KT_shki
                 Helper.MakeAnIndentation("     KT's     ");
                 Console.Write(
                     "\n" +
-                    ">> Выберите КТ: \n  " +
-                    ">> 1 \n  " +
-                    ">> 2 \n  " +
-                    ">> 0 - Выход \n");
+                    ">> Выберите КТ: \n" +
+                    "  >> 1 \n" +
+                    "  >> 2 \n" +
+                    "  >> 3 \n" +
+                    "  >> 0 - Выход \n");
 
                 Helper.ActionReseter(ref action);
 
@@ -38,6 +39,10 @@ namespace KT_shki
 
                         KT2_MarioKart KT2 = new KT2_MarioKart();
                         executer.CodeExecution(KT2);
+                        break;
+                    case "3":
+                        KT3_GenericCrafter KT3 = new KT3_GenericCrafter();
+                        executer.CodeExecution(KT3);
                         break;
                     case "0":
                         Console.WriteLine("\n >> ливаем \n");
