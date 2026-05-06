@@ -17,7 +17,7 @@
 
         public virtual string GetDescription()
         {
-            return $"\nDamage - {_Damage} \nAttack Speed - {_AttackSpeed} \n DPS - {DPS}";
+            return $"\n Damage - {_Damage} \n Attack Speed - {_AttackSpeed} \n DPS - {DPS}";
         }
     }
 }

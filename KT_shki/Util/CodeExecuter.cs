@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace KT_shki
 {
-    class CodeExecuter
+    class CodeExecuter // ti bespolezniy
     {
         public void CodeExecution(KT1_PapersPlease KT_1)
         {

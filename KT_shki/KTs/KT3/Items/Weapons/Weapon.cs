@@ -8,7 +8,7 @@
 
         public override string GetDescription()
         {
-            return $"Weapon! {this.GetType()} \n{base.GetDescription()}";
+            return $"Weapon! {this.GetType()} \n{base.GetDescription()}\nС Элементом - {_Element.GetType().Name ?? "Нет элемента"}";
         }
         public void SetElement(Element element)
         {
@@ -17,6 +17,11 @@
         public void SetElement(Element element1, Element element2)
         {
             _Element = element1 + element2;
+        }
+
+        public Element GetElement()
+        {
+            return _Element;
         }
     }
 }

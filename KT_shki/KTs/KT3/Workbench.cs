@@ -14,9 +14,9 @@
                     ReturnAttackSpeedAmount(a, b, c, 2));
                 return weapon;
             }
-            else if (a is Stone && b is Stick && c is Stick)
+            else if (a is Stone && b is Stone && c is Stick)
             {
-                weapon = new Spear(
+                weapon = new Axe(
                     ReturnDamageAmount(a, b, c, 1.5f),
                     ReturnAttackSpeedAmount(a, b, c, 3));
                 return weapon;
