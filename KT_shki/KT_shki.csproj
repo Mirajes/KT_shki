@@ -64,11 +64,11 @@
     <Compile Include="KTs\KT3\Items\Stone.cs" />
     <Compile Include="KTs\KT3\Items\Weapons\Weapon.cs" />
     <Compile Include="KTs\KT3\Workbench.cs" />
-    <Compile Include="Util\CodeExecuter.cs" />
     <Compile Include="Util\Helper.cs" />
     <Compile Include="KTs\KT1\KT1_PapersPlease.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="KTs\KT7\KT7_Async.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

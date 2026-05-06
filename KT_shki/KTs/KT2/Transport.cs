@@ -22,7 +22,7 @@ namespace KT_shki.KTs
 
             protected double _BaseSpeed;
             protected double _MaxTransportSpeed;
-            protected float _FuelCount;
+            protected float _FuelCount = 0f;
 
             protected TransportType _TransportsType;
             protected string _HowStartsMoving;
