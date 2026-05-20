@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KTs\KT8\KT8_Final.cs" />
+    <Compile Include="KTs\KT8\ReflectionHeadler.cs" />
+    <Compile Include="KTs\KT8\User.cs" />
     <Compile Include="Util\KT.cs" />
     <Compile Include="KTs\KT3\Items\Weapons\Axe.cs" />
     <Compile Include="KTs\KT3\Items\Item.cs" />

@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace KT_shki
 {
-    public class KT7_Async // no : KT
+    public class KT7_Async : KT
     {
         List<string> _urls = new List<string>();
         HttpClient _httpClient = new HttpClient();
 
-        public void Execute()
+        public override void Execute()
         {
             Helper.MakeAnIndentation("КТ7: Асинхронность");
 

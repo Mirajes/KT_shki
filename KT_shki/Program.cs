@@ -22,6 +22,7 @@ namespace KT_shki
                     "  >> 2 \n" +
                     "  >> 3 \n" +
                     "  >> 7 \n" +
+                    "  >> 8 \n" +
                     "  >> 0 - Выход \n");
 
                 Helper.ActionReseter(ref action);
@@ -47,6 +48,10 @@ namespace KT_shki
                     case "7":
                         KT7_Async KT7 = new KT7_Async();
                         KT7.Execute();
+                        break;
+                    case "8":
+                        KT8_Final KT8 = new KT8_Final();
+                        KT8.Execute();
                         break;
                     case "0":
                         Console.WriteLine("\n >> ливаем \n");
